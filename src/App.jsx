@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import AccommodationSheet from "./pages/AccommodationSheet";
@@ -13,13 +14,13 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/Kasa" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route
-          path="/Kasa/AccommodationSheet/:id"
+          path="/AccommodationSheet/:id"
           element={<AccommodationSheet />}
         />
-        <Route path="/Kasa/about" element={<About />} />
-        <Route path="/Kasa/*" element={<Error />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
     </Router>
