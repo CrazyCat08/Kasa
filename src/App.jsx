@@ -1,5 +1,5 @@
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import AccommodationSheet from "./pages/AccommodationSheet";
@@ -11,7 +11,8 @@ import Error from "./components/Error";
 
 function App() {
   return (
-    <Router>
+    // <Router>
+    <Router basename="/Kasa">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
