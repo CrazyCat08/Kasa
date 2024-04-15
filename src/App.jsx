@@ -18,8 +18,8 @@ function App() {
           path="/Kasa/AccommodationSheet/:id"
           element={<AccommodationSheet />}
         />
-        <Route path="Kasa/about" element={<About />} />
-        <Route path="*" element={<Error />} />
+        <Route path="/Kasa/about" element={<About />} />
+        <Route path="/Kasa/*" element={<Error />} />
       </Routes>
       <Footer />
     </Router>
