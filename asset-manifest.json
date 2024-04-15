@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Kasa/static/css/main.ddc1d031.css",
-    "main.js": "/Kasa/static/js/main.555a696b.js",
+    "main.js": "/Kasa/static/js/main.784239a5.js",
     "static/media/montagne.png": "/Kasa/static/media/montagne.ca36510f694dfe1d4bf6.png",
     "static/media/mer.png": "/Kasa/static/media/mer.969f0a4de80a6db1abb0.png",
     "index.html": "/Kasa/index.html",
     "static/media/arrow-up.svg": "/Kasa/static/media/arrow-up.7452ef7b632905dea1c527d29eefe393.svg",
     "main.ddc1d031.css.map": "/Kasa/static/css/main.ddc1d031.css.map",
-    "main.555a696b.js.map": "/Kasa/static/js/main.555a696b.js.map"
+    "main.784239a5.js.map": "/Kasa/static/js/main.784239a5.js.map"
   },
   "entrypoints": [
     "static/css/main.ddc1d031.css",
-    "static/js/main.555a696b.js"
+    "static/js/main.784239a5.js"
   ]
 }
