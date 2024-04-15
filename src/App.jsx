@@ -13,12 +13,12 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Kasa" element={<Home />} />
         <Route
-          path="/AccommodationSheet/:id"
+          path="/Kasa/AccommodationSheet/:id"
           element={<AccommodationSheet />}
         />
-        <Route path="/about" element={<About />} />
+        <Route path="Kasa/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
